@@ -13,8 +13,8 @@
 | Metrics | `in_deezer_playlists, in_deezer_charts` | Presence in Deezer playlists and charts | Integer (`≥0`) |
 | Metrics | `in_shazam_charts` | Number of times the song was recognized by Shazam | Integer (`≥0`) |
 | Musicality | `bpm` | Tempo of the song (beats per minute) | Float (`≥0`) |
-| Musicality | `key` | Musical key | String (non-null) |
-| Musicality | `mode` | Major (`1`) or Minor (`0`) scale | Integer [`0,1`] |
+| Musicality | `key` | Musical key | String {`C,C#,D,D#,E,F,F#,G,G#,A,A#,B`} |
+| Musicality | `mode` | Major or Minor scale | String {`Major,Minor`} |
 | Musicality | `danceability_%` | How danceable a song is | Float [`0,100`] |
 | Musicality | `valence_%` | Positivity or happiness of the track | Float [`0,100`] |
 | Musicality | `energy_%` | Intensity and activity level of the song | Float [`0,100`] |
