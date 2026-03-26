@@ -31,4 +31,4 @@ CREATE TABLE IF NOT EXISTS spotify_tracks (
     data_source VARCHAR(50) -- To track if it's Kaggle or personal Spotify
 );
 
-"The `username` field from the raw JSON will be excluded from the SQL Schema to maintain user privacy (Anonymization)."
+-- The `username` field from the raw JSON will be excluded from the SQL Schema to maintain user privacy (Anonymization).
